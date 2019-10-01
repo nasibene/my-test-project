@@ -3,8 +3,8 @@ node_js:
  - "node"
 
 script:
-- echo “check jshint”
-- node_modules/.bin/jshint src
+- echo “check jsdoc”
+- node_modules/.bin/jsdoc src
 
 deploy:
 provider : pages
